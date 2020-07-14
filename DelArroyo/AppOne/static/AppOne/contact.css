@@ -1,0 +1,59 @@
+.navbar {
+       background-color: #022406;
+       opacity: 0.5;
+   }
+
+.navbar-brand, .navbar-text{
+    color: #aaafbd;
+}
+
+.navbar:hover {
+  opacity: 1;
+}
+
+.navbar-brand:hover, .navbar-text:hover {
+    color: #fcf6ac;
+}
+
+.navbar-toggler-icon {
+  cursor: pointer;
+  color: #aaafbd;
+}
+
+.content_container{
+  width: 100%;
+  padding-top: 90px;
+  margin: auto;
+}
+
+.content_container, img {
+  max-width: 125%;
+  max-height: auto;
+  padding: center;
+  display: block;
+}
+
+.contact_box
+{
+	background: white;
+	border: solid 2px #022406;
+	padding-top: 55px;
+	padding-bottom: 59px;
+	padding-left: 70px;
+	padding-right: 50px;
+}
+
+.contact_title {
+  color: #022406;
+  font: #022406;
+  padding-bottom: 8px;
+}
+
+.fab {
+  color: #022406;
+  }
+
+.p {
+  color: #022406;
+  font: #022406;
+}

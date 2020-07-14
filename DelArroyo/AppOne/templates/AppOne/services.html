@@ -1,0 +1,46 @@
+{% extends 'AppOne/base.html' %}
+{% load static %}
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+{% block css_block %}<link rel="stylesheet" type="text/css" href= "{% static "AppOne/services.css" %}">{% endblock %}
+
+
+{% block body_block %}
+<div class="container">
+<table>
+  <tr>
+    <td class="pic_container"><img src="{% static "AppOne/images/WiFi.png" %}" alt="My image"></td>
+    <td class="pic_container"><img src="{% static "AppOne/images/DirectTV.png" %}" alt="My image"></td>
+    <td class="pic_container"><img src="{% static "AppOne/images/ropa_blanca.png" %}" alt="My image"></td>
+    <td class="pic_container"><img src="{% static "AppOne/images/cocina.png" %}" alt="My image"></td>
+  </tr>
+  <tr id="end_row_one">
+    <td id="end_row_one">Wifi</td>
+    <td id="end_row_one">DirecTV</td>
+    <td id="end_row_one">Ropa Blanca</td>
+    <td id="end_row_one">Cocina Equipada</td>
+  </tr>
+  <tr>
+    <td class="pic_container"><img src="{% static "AppOne/images/calefaccion.png" %}" alt="My image"></td>
+    <td class="pic_container"><img src="{% static "AppOne/images/aireacondicionado.png" %}" alt="My image"></td>
+    <td class="pic_container"><img src="{% static "AppOne/images/Parrilla.png" %}" alt="My image"></td>
+    <td class="pic_container"><img src="{% static "AppOne/images/juegos.png" %}" alt="My image"></td>
+  </tr>
+  <tr>
+    <td>Calefacción</td>
+    <td>Aire Acondicionado</td>
+    <td>Parrilla</td>
+    <td>Juegos</td>
+  </tr>
+  <tr>
+    <td class="pic_container"><img src="{% static "AppOne/images/detector.jpeg" %}" alt="My image"></td>
+    <td class="pic_container"><img src="{% static "AppOne/images/alarma.jpeg" %}" alt="My image"></td>
+  </tr>
+  <tr>
+    <td>Detectores de humo</td>
+    <td>Alarma</td>
+  </tr>
+</table>
+</div>
+
+{% endblock %}

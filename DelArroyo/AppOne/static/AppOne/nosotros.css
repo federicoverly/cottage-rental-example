@@ -1,0 +1,26 @@
+.navbar {
+       background-color: #022406;
+       opacity: 0.5;
+   }
+
+.navbar-brand, .navbar-text{
+    color: #aaafbd;
+}
+
+.navbar:hover {
+  opacity: 1;
+}
+
+.navbar-brand:hover, .navbar-text:hover{
+    color: #fcf6ac;
+}
+
+.navbar-toggler-icon {
+  cursor: pointer;
+  color: #aaafbd;
+}
+
+.about_us{
+  margin: auto;
+  padding-top: 75px;
+}

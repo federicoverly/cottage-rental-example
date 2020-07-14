@@ -1,0 +1,32 @@
+{% extends 'AppOne/base.html' %}
+{% load static %}
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+{% block css_block %}<link rel="stylesheet" type="text/css" href= "{% static "AppOne/contact.css" %}"{% endblock %}
+
+  {% block body_block %}
+<!-- Contacto -->
+
+<div class="container">
+  <div class="content_container">
+    <!-- Imagen -->
+  <div class="row align-items-center">
+    <div class="col-sm-6 align-self-center">
+      <img src="{% static "AppOne/images/contactanos.jpg" %}" alt="My image">
+    </div>
+    <!-- Datos de contacto -->
+    <div class="col-sm-6 align-self-center">
+      <div class="contact_box">
+          <div class="contact_title"><h2>Contactanos</h2></div>
+          <div class="contact_text">
+            <p><i class="fab fa-whatsapp"></i>&nbsp +54 9 11 4409 6966 </p>
+            <p><i class="fas fa-at"></i>&nbsp delarroyotandil@gmail.com</p>
+            <p><i class="fab fa-instagram"></i> <a href="https://www.instagram.com/delarroyotandil/">&nbsp /delarroyotandil</a> </p>
+            <p><i class="fab fa-facebook-f"></i> <a href="https://www.facebook.com/delarroyotandil/">&nbsp /delarroyotandil</a> </p>
+        </div>
+    </div>
+  </div>
+  </div>
+
+
+  {% endblock %}

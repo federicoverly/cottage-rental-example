@@ -1,0 +1,43 @@
+.navbar {
+       background-color: #022406;
+       opacity: 0.5;
+   }
+
+.navbar-brand, .navbar-text{
+    color: #aaafbd;
+}
+
+.navbar:hover {
+  opacity: 1;
+}
+
+.navbar-brand:hover, .navbar-text:hover{
+    color: #fcf6ac;
+}
+
+.navbar-toggler-icon {
+  cursor: pointer;
+  color: #aaafbd;
+}
+
+.container {
+  padding-top:75px;
+}
+
+.tab-content{
+  margin: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.tab-color-name{
+  color: #022406;
+}
+
+.tab-color-name:hover{
+  color: #022406;
+}
+
+.Img:hover{
+  opacity: 0.5;
+}
